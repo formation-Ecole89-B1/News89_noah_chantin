@@ -81,7 +81,7 @@ header p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.blog {
+.blg {
     padding: 1vh;
     border: #eaeaea solid 1px;
     height: fit-content;
@@ -119,36 +119,36 @@ header p {
     background-color: #0766F0;
     width: fit-content;
 }
-.blog_title {
+.blgtitle {
     font-size: 1.8em;
     font-weight: 700;
 }
-.author_logo {
+.authorlogo {
     display: flex;
 }
-.author_logo img {
+.authorlogo img {
     height: 2.5em;
     margin-right: 1em;
 }
-.author_logo p {
+.authorlogo p {
     font-size: 1.5em;
     color: grey;
 }
-.author_logo span {
+.authorlogo span {
     font-weight: 700;
     color: black;
 }
-.blog_text {
+.blgtxt {
     font-size: 1.05em;
 }
-.blog a {
+.blg a {
     text-decoration: underline;
 }
-.blog a:hover {
+.blg a:hover {
     background-color: #eaeaea;
     border-radius: 5px;
 }
-#bottom_link {
+#btmlink {
     position: absolute;
     bottom: 1.5vh;
     right: 5%;
