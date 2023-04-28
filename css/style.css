@@ -1,37 +1,37 @@
-#main_page {
+#mainpage {
     display: flex;
 }
-#left_box {
+#leftdiv {
     position: fixed;
     width: 50vw;
     height: 100vh;
     background: url("../img/nicole.jpg");
     background-size: cover;
 }
-#title_box {
+#titlediv {
     display: flex;
     position: absolute;
 }
-#title_box img {
+#titlediv img {
     margin-top: 2.8vh;
     margin-bottom: 2.8vh;
     height: 9vh;
     margin-right: 2vw;
 }
-#title_box p {
+#titlediv p {
     font-weight: 700;
     font-size: 3.5vh;
     color: white;
     text-decoration: underline rgb(43, 120, 244);
     font-family: sans-serif;
 }
-#left_text_box {
+#lefttextdiv {
     width: 96%;
     margin: 0 auto;
     margin-top: 47vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.middle_left {
+.middleleft {
     text-align: right;
     padding-left: 3.5vw;
     padding-right: 1vw;
@@ -39,7 +39,7 @@
     color: white;
     font-family: sans-serif;
 }
-.middle_left:first-child {
+.middleleft:first-child {
     text-align: right;
     padding-top: 2.2vh;
     padding-right: 1vw;
@@ -48,17 +48,17 @@
     color: white;
     font-family: sans-serif;
 }
-#left_box span {
+#leftdiv span {
     font-weight: 800;
     font-size: 2.9vh;
     
 }
-#left_text_box strong{
+#lefttextdiv strong{
     font-weight: 700;
     font-size: 2.9vh;
     
 }
-#right_box {
+#rightdiv {
     position: absolute;
     right: 0;
     top: 0;
@@ -180,22 +180,22 @@ form button {
     margin-top: 2em;
     border-radius: 20px;
 }
-#mentions {
+#mentionslgl {
     margin: 2em;
     border: 0.1em solid;
     background-color: rgba(217, 255, 3, 0.326);
     padding: 1em;
 }
-#mentions p {
+#mentionslgl p {
     font-size: large;
 }
-#bottom_link a {
+#btmlink a {
     color: rgb(250, 133, 133);
     padding-right: 1vw;
     padding-left: 1vw;
     font-size: 1.5vh;
 }
-#bottom_link a:hover {
+#btmlink a:hover {
     background-color: rgba(67, 241, 154, 0.5);
     border-radius: 20px;
 }
